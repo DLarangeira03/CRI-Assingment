@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-keycloak
+python-jose[cryptography] 
+requests
+asyncpg
