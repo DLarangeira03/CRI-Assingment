@@ -3,5 +3,6 @@ uvicorn[standard]
 pydantic
 python-keycloak
 python-jose[cryptography] 
+pycryptodome
 requests
 asyncpg
