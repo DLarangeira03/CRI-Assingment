@@ -3,6 +3,7 @@ import requests
 import asyncpg
 import os
 import ssl
+import pycryptodome
 from fastapi import FastAPI, Depends, HTTPException, status, Header
 from jose import jwt, jwk
 from jose.exceptions import JWTError, ExpiredSignatureError
